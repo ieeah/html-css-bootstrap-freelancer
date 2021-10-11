@@ -1,9 +1,17 @@
-.t1 {
+.bg-1 {
     background-color: aquamarine;
 }
 
-.t2 {
+.bg-2 {
     background-color: yellowgreen;
+}
+
+.bg-3 {
+    background-color: red;
+}
+
+.bg-4 {
+    background-color: yellow;
 }
 
 .debug {
@@ -11,6 +19,15 @@
     border: 2px solid black;
 }
 
+.h-100px {
+    height: 100px;
+}
+
 .h-400px {
     height: 400px;
 }
+
+.rounded-15 {
+    border-radius: 15px;
+}
+
