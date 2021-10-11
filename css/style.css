@@ -1,3 +1,7 @@
+body {
+    color: white;
+}
+
 .bg-1 {
     background-color: aquamarine;
 }
@@ -11,7 +15,15 @@
 }
 
 .bg-4 {
-    background-color: yellow;
+    background-color: rgb(132, 0, 255);
+}
+
+.bg-5 {
+    background-color: dodgerblue
+}
+
+.bg-6 {
+    background-color: rgb(20, 29, 58);
 }
 
 .debug {;
@@ -30,3 +42,14 @@
     border-radius: 15px;
 }
 
+.bttn {
+    border: 2px solid white;
+}
+
+.w-18px {
+    width: 18px;
+}
+
+.bttn img {
+    filter: invert(1);
+}

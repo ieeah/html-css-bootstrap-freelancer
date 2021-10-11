@@ -11,27 +11,27 @@
 
 <body>
 
-    <header class="container-fluid debug bg-1 h-100px">
-        <div class="container-sm">
-            <div class="row col-md-10 offset-md-1 justify-content-between">
-                <div class="col-10 debug bg-2"></div>
-                <div class="col-2 debug bg-3"></div>
+    <header class="bg-2">
+        <div class="container-md">
+            <div class="row justify-content-between h-100px">
+                <div class="col-10 bg-1"></div>
+                <div class="col-2 bg-3"></div>
             </div>
         </div>
     </header>
 
-    <section class="hero container-fluid bg-4 justify-content-center text-center">
+    <section class="hero container-fluid bg-4 justify-content-center text-center p-2">
             <img src="https://picsum.photos/200" alt="" class="h-50 rounded-circle mt-5">
                 <h1 class="pt-4">START BOOTSTRAP</h1>
                 <div>hr più stellina</div>
-                <ul class="p-4 mb-0">
+                <ul class="">
                     <li class="d-inline-block">GRAPHIC ARTIST - </li>
                     <li class="d-inline-block">WEB DESIGNER - </li>
                     <li class="d-inline-block">ILLUSTRATOR</li>
                 </ul>
     </section>
 
-    <section class="portfolio container-fluid justify-content-center text-center bg-1 p-3">
+    <section class="portfolio container-fluid justify-content-center text-center bg-1 py-5">
         <h2>PORTFOLIO</h2>
         <div class="text-center mx-auto">hr più stella</div>
         <div class="container-md mt-4">
@@ -72,39 +72,43 @@
     </section>
 
     <div class="about container-fluid justify-content-center p-5 bg-2">
-        <div class="row text-center justify-content-center">
+        <div class="row text-center justify-content-center flex-wrap">
             <h2>ABOUT</h2>
             <div class="pb-2">hr e stella</div>
-            <div class="col-8 d-flex flex-wrap justify-content-center">
-                <div class="col-12 col-md-6 px-md-3 py-3 text-start">
+            <div class="col-12 d-flex flex-wrap justify-content-center">
+                <div class="col-11 col-md-4 px-md-3 py-3 text-start">
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus quam dolores nulla voluptatem repellendus voluptatibus facere eligendi! Officia quisquam esse sunt ad, quia mollitia explicabo inventore voluptatem repudiandae eum in.
                     </p>
                 </div>
-                <div class="col-12 col-md-6 px-md-3 py-3 text-start">
+                <div class="col-11 col-md-4 px-md-3 py-3 text-start">
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus quam dolores nulla voluptatem repellendus voluptatibus facere eligendi! Officia quisquam esse sunt ad, quia mollitia explicabo inventore voluptatem repudiandae eum in.
                     </p>
                 </div>
             </div>
+            <div class="bttn w-auto p-3 rounded-3 d-flex justify-content-center align-content-center">
+                <img class="w-18px" src="./download.svg" alt="">
+                <span class="ms-2">download</span>
+            </div>
         </div>
     </div>
 
-    <div class="contact container-fluid justify-content-center">
+    <section class="contact container-fluid justify-content-center p-5 bg-4">
         <div class="offset-2 col-8 t1 h-400px"></div>
-    </div>
+    </section>
 
-    <footer class="container-fluid justify-content-center text-center h-100px">
-        <div class="details container-md t2">
+    <section class="container-fluid justify-content-center text-center bg-5">
+        <div class="details container-md pt-5">
             <div class="row">
-                <div class="col-12 col-md-4 t1"></div>
-                <div class="col-12 col-md-4 t1"></div>
-                <div class="col-12 col-md-4 t1"></div>
+                <div class="col-12 col-md-4 h-100px bg-1"></div>
+                <div class="col-12 col-md-4 h-100px bg-2"></div>
+                <div class="col-12 col-md-4 h-100px bg-3"></div>
             </div>
         </div>
-        <div class="copyrights text-center pt-4 t1">
-            Copyrights @ your website 2019
-        </div>
+    </section>
+    <footer class="copyrights text-center pt-4 bg-6 h-100px">
+        Copyrights @ your website 2019
     </footer>
 </body>
 </html>
