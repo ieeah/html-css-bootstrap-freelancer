@@ -58,6 +58,16 @@ body {
     width: 40px;
 }
 
+/* NAVIGATION */
+
+.navbar.bg-2 ul li a.navigation-link {
+    color: white;
+}
+
+.navbar.bg-2 ul li a.navigation-link:hover {
+    color: #1abc9c;
+}
+
 .place-center-end {
     place-items: center end;
 }
