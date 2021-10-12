@@ -23,7 +23,7 @@ body {
     color: #2c3e50;
 }
 
-.color_1 {
+.color_4 {
     color: white;
 }
 
@@ -47,8 +47,12 @@ body {
     border-radius: 15px;
 }
 
-.bttn {
+.btn_outline_4 {
     border: 2px solid white;
+}
+
+.p-top-130px {
+    padding-top: 130px;
 }
 
 .w-icon-1 {
@@ -72,9 +76,7 @@ body {
     place-items: center end;
 }
 
-.p-top-130px {
-    padding-top: 130px;
-}
+
 
 .divider-bar {
     width: 25%;
