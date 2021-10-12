@@ -60,6 +60,9 @@
     .place-center-end {
         place-items: center end;
     }
+    .place-center {
+        place-items: center;
+    }
 
 /* SIZES */
     /* width */
@@ -124,6 +127,23 @@
 
     .navbar.bg-2 ul li a.navigation-link:hover {
         color: #1abc9c;
+    }
+
+    /* PORTFOLIO */
+    .overlay {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(26, 188, 156, 0.55);
+        cursor: pointer;
+        font-size: 100px;
+    }
+
+    .portfolio .overlay:hover {
+        opacity: 1;
     }
 
     /* FORM */
