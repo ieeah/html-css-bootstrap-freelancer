@@ -1,24 +1,26 @@
-body {
-    color: white;
-    font-weight: bold;
-}
 
-.bg-1 {
-    background-color: #1abc9c;
-}
+/* UTILITIES */
 
-.bg-2 {
-    background-color: #2c3e50;
-}
+/* BACKGROUND COLORS */
+    .bg-1 {
+        background-color: #1abc9c;
+    }
 
-.bg-3 {
-    background-color: #3a546d;
-}
+    .bg-2 {
+        background-color: #2c3e50;
+    }
 
-.bg-4 {
-    background-color: white;
-}
+    .bg-3 {
+        background-color: #3a546d;
+    }
 
+    .bg-4 {
+        background-color: white;
+    }
+
+/* TYPO */
+    /* colors */
+    
 .color_2 {
     color: #2c3e50;
 }
@@ -31,55 +33,74 @@ body {
     color: inherit;
 }
 
-.debug {
-    border: 2px solid black;
-}
+/* MISC */
+    /* debug */
+    .debug {
+        border: 2px solid black;
+    }
 
-.h-100px {
-    height: 100px;
-}
+/* BORDERS */
+    /* rounded borders */
+    .rounded-15 {
+        border-radius: 15px;
+    }
 
-.h-400px {
-    height: 400px;
-}
+/* SPACING */
 
-.rounded-15 {
-    border-radius: 15px;
-}
-
-.btn_outline_4 {
-    border: 2px solid white;
-}
-
-.p-top-130px {
-    padding-top: 130px;
-}
-
-.w-icon-1 {
-    width: 18px;
-}
-.w-icon-2 {
-    width: 40px;
-}
-
-/* NAVIGATION */
-
-.navbar.bg-2 ul li a.navigation-link {
-    color: white;
-}
-
-.navbar.bg-2 ul li a.navigation-link:hover {
-    color: #1abc9c;
-}
-
-.place-center-end {
-    place-items: center end;
-}
+    /* padding */
+    .p-top-130px {
+        padding-top: 130px;
+    }
 
 
+/* SIZES */
+    /* width */
+    .w-icon-1 {
+        width: 18px;
+    }
+    .w-icon-2 {
+        width: 40px;
+    }
 
-.divider-bar {
-    width: 25%;
-    height: 3px;
-    background-color: ;
-}
+    /* height */
+    .h-100px {
+        height: 100px;
+    }
+    
+    .h-400px {
+        height: 400px;
+    }
+
+    /* BUTTONS */
+    .btn_outline_4 {
+        border: 2px solid white;
+    }
+
+/* REUTILIZE */
+    .divider-bar {
+        width: 25%;
+        height: 3px;
+        background-color: ;
+    }
+
+/* STYLING */
+    /* GENERAL */
+    body {
+        color: white;
+        font-weight: bold;
+    }
+
+    /* NAVIGATION */
+
+    .navbar.bg-2 ul li a.navigation-link {
+        color: white;
+    }
+
+    .navbar.bg-2 ul li a.navigation-link:hover {
+        color: #1abc9c;
+    }
+
+    .place-center-end {
+        place-items: center end;
+    }
+
