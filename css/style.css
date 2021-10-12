@@ -15,8 +15,16 @@ body {
     background-color: #3a546d;
 }
 
+.bg-4 {
+    background-color: white;
+}
+
 .color_2 {
     color: #2c3e50;
+}
+
+.color_current {
+    color: inherit;
 }
 
 .debug {
@@ -39,14 +47,23 @@ body {
     border: 2px solid white;
 }
 
-.w-18px {
+.w-icon-1 {
     width: 18px;
 }
-
-img[src*="svg"] {
-    filter: invert(1);
+.w-icon-2 {
+    width: 40px;
 }
 
 .place-center-end {
     place-items: center end;
+}
+
+.p-top-130px {
+    padding-top: 130px;
+}
+
+.divider-bar {
+    width: 25%;
+    height: 3px;
+    background-color: ;
 }
