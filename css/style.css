@@ -23,7 +23,11 @@ body {
     color: #2c3e50;
 }
 
-.color_current {
+.color_1 {
+    color: white;
+}
+
+.color_inherit {
     color: inherit;
 }
 
