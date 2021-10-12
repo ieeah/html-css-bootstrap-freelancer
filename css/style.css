@@ -52,6 +52,11 @@
         padding-top: 130px;
     }
 
+/* POSITIONING */
+    /* grid */
+    .place-center-end {
+        place-items: center end;
+    }
 
 /* SIZES */
     /* width */
@@ -75,12 +80,14 @@
     .btn_outline_4 {
         border: 2px solid white;
     }
+    .boo_btn_1 {
+        background-color: #1abc9c; 
+    }
 
 /* REUTILIZE */
     .divider-bar {
         width: 25%;
         height: 3px;
-        background-color: ;
     }
 
 /* STYLING */
@@ -100,7 +107,31 @@
         color: #1abc9c;
     }
 
-    .place-center-end {
-        place-items: center end;
+    /* FORM */
+    .boo_form_style {
+        border: none;
+        border-bottom: 1px solid black;
+        height: 3.8rem;
     }
+    .boo_form_style:focus {
+        border-bottom: 2px solid black;
+        box-shadow: none;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    input:not([type="submit"]):focus {
+        border-bottom: 2px solid black;
+        outline: none;
+    }
+
+    ::placeholder {
+        color: black;
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
+
+
 
