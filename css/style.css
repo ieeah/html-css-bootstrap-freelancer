@@ -71,7 +71,9 @@
     .h-100px {
         height: 100px;
     }
-    
+    .h-250px {
+        height: 250px;
+    }
     .h-400px {
         height: 400px;
     }
@@ -80,8 +82,19 @@
     .btn_outline_4 {
         border: 2px solid white;
     }
+
+    .btn_outline_4:hover {
+        background-color: rgba(255, 255, 255, 0.15);
+        color: white;
+    }
     .boo_btn_1 {
-        background-color: #1abc9c; 
+        background-color: #1abc9c;
+        border: none;
+    }
+    .boo_btn_1:hover {
+        background-color: #469b8a;
+        color: white;
+
     }
 
 /* REUTILIZE */
@@ -108,28 +121,40 @@
     }
 
     /* FORM */
-    .boo_form_style {
+    /* .boo_form_style {
         border: none;
         border-bottom: 1px solid black;
         height: 3.8rem;
-    }
+    } */
     .boo_form_style:focus {
         border-bottom: 2px solid black;
         box-shadow: none;
     }
 
-    input {
+    input,
+    textarea {
         width: 100%;
     }
 
-    input:not([type="submit"]):focus {
+    input:not([type="submit"]),
+    textarea {
+        border: none;
+        border-bottom: 1px solid grey;
+        height: 3.8rem;
+    }
+
+    input:not([type="submit"]):focus,
+    textarea:focus {
         border-bottom: 2px solid black;
         outline: none;
     }
 
+    textarea {
+    }
+
     ::placeholder {
         color: black;
-        font-weight: 500;
+        font-weight: 600;
         font-size: 1.3rem;
     }
 
